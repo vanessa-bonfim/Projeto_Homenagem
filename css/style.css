@@ -1,13 +1,30 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    background:gray;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+:root {
+    --color-yellow: yellow;
+    --color-red:red;
 }
 
-main{
-background-color: yellow;
-/*margin: 2% 25% 0% 25%;*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: 25px;
+}
+
+.by {
+  border: solid 1px var(--color-red);
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image{
+    display: block;
+    width: 100%;
+    max-width: 750px;
 }
