@@ -28,9 +28,14 @@
 .cite{
   display: block;
 }
+.equal-padding{
+  padding: 10px;
+
+}
 body{
   padding: 25px 10px; /*Empurrou todos os lados da tag MAIN dentro da tag body, ficando com um espaço entre eles de 25px*/
   font-family: monospace;
+  color:hsl(0, 10%, 20%);
 }
 #main{
     /*display: flex;
@@ -38,14 +43,16 @@ body{
     align-items: center;*/
     border-radius: 5px;
     padding: 25px 15px; 
-    background: linear-gradient(50deg, hsl(180, 75%, 88%), hsl(0, 75%, 88%), hsl(240,75%,88%));
+    /*background: linear-gradient(50deg, hsl(180, 75%, 88%), hsl(0, 75%, 88%), hsl(240,75%,88%));*/
+    background-color: hsl(0, 55%, 95%);
 }
 
 #img-div{
   padding: 25px;
   border-color: hsl(hue, saturation, lightness);
   border-radius: 5px;
-
+  /*background-color:hsl(0, 50%, 90%) */
+  background: linear-gradient(50deg, hsl(180, 75%, 88%), hsl(0, 75%, 88%), hsl(240,75%,88%));
 }
 #img-caption{
   padding: 5px;
@@ -56,7 +63,7 @@ body{
 #image{
    display: block; /* Imagem muito grande foi transfomada em bloco para que se pudesse adaptar.*/
    width: 100%;
-   max-width: 800px;
+   max-width: 950px;
    margin: auto;
    /*max-width: 100%;
    height: auto;*/
@@ -67,28 +74,30 @@ header{
 }
 
 h1{
-  font-size: 60px;
+  font-size: 55px;
 
 }
 p{
-  padding: 10pxpx;
-  font-size: 30px;   
+  font-size: 25px;   
 }
 #tribute-info{
   padding: 25px;
 }
 h2{
-  padding: 10px;
-  font-size: 40px
+  font-size: 35px
 }
-ul, cite{
-  padding: 10px;
-  max-width: 800px;
+ul, div{  
+  max-width: 750px;
   margin: auto;
 }
 li{
   padding: 10px;
-  font-size: 20px;
+  font-size: 15px;
   list-style-type: square;
 }
-
+cite{
+  max-width: 350px;
+}
+footer{
+  font-size: 15px;
+}
